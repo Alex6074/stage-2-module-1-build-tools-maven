@@ -15,5 +15,6 @@ public class UtilsTest {
 
         List<String> mixedNumbers = Arrays.asList("1", "-2", "3");
         assertFalse(Utils.isAllPositiveNumbers(mixedNumbers));
+
     }
 }
